@@ -64,7 +64,7 @@ class _ServiceCardState extends State<_ServiceCard> {
             if (Responsive.isDesktop(context))
               Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
-                  children: widget.service.tool
+                  children: widget.service.tools
                       .map((e) => Row(
                             children: [
                               const Text('🛠   '),
@@ -81,7 +81,7 @@ class _ServiceCardState extends State<_ServiceCard> {
                 child: ListView(
                     padding: EdgeInsets.zero,
                     shrinkWrap: true,
-                    children: widget.service.tool
+                    children: widget.service.tools
                         .map((e) => Row(
                               children: [
                                 const Text('🛠   '),

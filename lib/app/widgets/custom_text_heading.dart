@@ -10,9 +10,24 @@ class CustomSectionHeading extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Responsive(
-      desktop: Text(
-        text,
-        style: const TextStyle(fontSize: 56),
+      desktop: ShaderMask(
+        shaderCallback: (bounds) {
+          return const LinearGradient(
+              end: Alignment.centerRight,
+              begin: Alignment.centerLeft,
+              colors: [
+                Colors.pink,
+                Colors.cyanAccent,
+              ]).createShader(bounds);
+        },
+        child: Text(
+          text,
+          textAlign:TextAlign.center,
+          style: Theme.of(context).textTheme.titleMedium!.copyWith(
+              color: Colors.white,
+              fontSize: 40,
+              fontWeight: FontWeight.bold),
+        ),
       ),
       tablet: Text(
         text,

@@ -28,6 +28,18 @@ dependencies:
   carousel_slider: ^4.0.0
   animated_text_kit: ^4.2.1
   scrollable_positioned_list: ^0.3.5
+  responsive_framework: ^0.0.14
+  flutter_icons: ^1.1.0
+  smooth_page_indicator: ^0.2.0
+  firebase_core: ^2.15.0
+  cloud_firestore: ^4.8.4
+  firebase_auth: ^4.7.2
+  cached_network_image: ^3.2.3
+  device_info_plus: ^3.2.2
+  local_auth: ^1.1.11
+  get: ^4.6.5
+  flutter_secure_storage: ^5.0.2
+  loading_animation_widget: ^1.2.0+4
 
   # web related
   # flutter_html: any

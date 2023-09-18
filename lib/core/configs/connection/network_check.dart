@@ -23,7 +23,7 @@ class NChecking extends StatelessWidget {
           return const MainPage();
           // return const MainScreen();
         }
-        // else if (state is ConnectedFailureState) {
+        // else if (state is ConnectedFailureState)  {
         //   return const NoConnectionErorr();
         // }
         else {

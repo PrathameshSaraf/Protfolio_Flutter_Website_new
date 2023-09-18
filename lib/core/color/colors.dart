@@ -9,7 +9,7 @@ const whiteColor = Color(0xFFFFFFFF);
 const blackColor = Color(0xFF2B2B2B);
 // Color kCyanColor = const Color(0xFF08F7FE);
 // const btnColor = Color(0xFF4E5E80);
-// const defaultPadding = 200.0;
+// const 20.0 = 200.0;
 // const defaultDuration = Duration(seconds: 1); // we use it on our animation
 // const maxWidth = 1440.0; // max width of our web
 
